@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Drawer — make it drawerable</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 16px/1.7 -apple-system, "PingFang SC", system-ui, sans-serif;
+         max-width: 720px; margin: 0 auto; padding: 56px 24px; }
+  h1 { font-size: 40px; margin: 0; }
+  .slogan { color: #888; font-size: 20px; margin: 4px 0 28px; }
+  h2 { margin-top: 36px; font-size: 18px; }
+  a.btn { display: inline-block; margin-top: 8px; padding: 10px 18px;
+          background: #0a84ff; color: #fff; border-radius: 8px; text-decoration: none; font-weight: 600; }
+  ul { padding-left: 1.2em; }
+  code { background: rgba(127,127,127,.18); padding: 1px 5px; border-radius: 4px; }
+  .muted { color: #999; font-size: 14px; margin-top: 40px; }
+</style>
+</head>
+<body>
+  <h1>Drawer</h1>
+  <p class="slogan"><em>make it drawerable.</em></p>
+
+  <p>把任意 macOS app 变成从屏幕边缘滑入/滑出的抽屉 —— 一个快捷键,秒呼秒收。高频但不必常驻的 app(AI 助手、聊天、终端),用完即走,不打断手头的事。</p>
+
+  <a class="btn" href="https://github.com/davidfuzju/drawer/releases">下载最新版 ↓</a>
+  <p class="muted" style="margin-top:10px">要求 macOS 26.5+(Apple Silicon)。首次打开未公证可能被 Gatekeeper 拦:右键 App → 打开。</p>
+
+  <h2>功能</h2>
+  <ul>
+    <li>边缘抽屉:左/右/上/下,快捷键滑入滑出</li>
+    <li>多抽屉:各绑快捷键;同边互斥、异边独立</li>
+    <li>失焦自动收起、开机自启</li>
+    <li>内置自动更新(Sparkle),支持 Beta 频道</li>
+  </ul>
+
+  <h2>用法</h2>
+  <ul>
+    <li>菜单栏 Drawer 图标 → 设置 → <b>＋</b> 选 app → 选边缘 → 录快捷键</li>
+    <li>首次需在 系统设置 → 隐私与安全性 → 辅助功能 勾选 Drawer</li>
+  </ul>
+
+  <p class="muted">本站仅托管发行产物与更新源(<code>appcast.xml</code>);源码私有。<br>Drawer · make it drawerable.</p>
+</body>
+</html>
