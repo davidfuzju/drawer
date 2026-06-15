@@ -8,26 +8,7 @@
     <description>Drawer 自动更新源</description>
     <language>zh</language>
 
-    <!--
-      发布时往这里插 <item>。stable 不打 channel,beta 打 <sparkle:channel>beta</sparkle:channel>。
-      模板(CI / 本地脚本生成):
-
-      <item>
-        <title>1.1.0</title>
-        <pubDate>Mon, 01 Jan 2026 12:00:00 +0800</pubDate>
-        <sparkle:version>3</sparkle:version>                  <!-- CFBundleVersion(build,单调递增) -->
-        <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
-        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-        <description><![CDATA[ 更新说明 ]]></description>
-        <enclosure
-          url="https://github.com/davidfuzju/drawer/releases/download/v1.1.0/Drawer-1.1.0.zip"
-          length="1234567"
-          type="application/octet-stream"
-          sparkle:edSignature="<sign_update 输出的 EdDSA 签名>" />
-      </item>
-
-      beta 版只多一行:<sparkle:channel>beta</sparkle:channel>
-    -->
+    <!-- 发布时由 release.sh 在 channel 结束前自动插入 item。stable 不打 channel;beta 打 sparkle:channel=beta。模板见 docs/RELEASE.md。 -->
     <item>
         <title>1.1</title>
         <pubDate>Mon, 15 Jun 2026 05:57:33 +0000</pubDate>
