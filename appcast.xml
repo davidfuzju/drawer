@@ -38,5 +38,14 @@
         <description><![CDATA[ 新命名验证:shortVer/tag 不带 build,仅 zip 带。Universal + macOS 14。 ]]></description>
         <enclosure url="https://github.com/davidfuzju/drawer/releases/download/v1.1.0-beta/Drawer-1.1.0-beta.4.zip" type="application/octet-stream" sparkle:edSignature="SNvwJoKUqN2vSphnlqm44BivLDy4QNh5zIzKSHlglft+BvzGihG8pZF40XxB3Cqnau9G70OoEcZPFRX4LZ08Cg==" length="1541164" />
     </item>
+    <item>
+        <title>1.1.1</title>
+        <pubDate>Mon, 15 Jun 2026 07:51:10 +0000</pubDate>
+        <sparkle:version>5</sparkle:version>
+        <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[ Universal 二进制(Apple Silicon + Intel);部署目标降至 macOS 14;新增 dmg 安装包(拖入 Applications 即装);默认订阅 Beta 频道。 ]]></description>
+        <enclosure url="https://github.com/davidfuzju/drawer/releases/download/v1.1.1/Drawer-1.1.1.5.zip" type="application/octet-stream" sparkle:edSignature="+8k9rmUPNhfw63PbBEEciOwuxutIqUz904iasbV4WwEft5ZJImaBLAeujmmceOtVf03F8SKkVDXB+pjA7kaiCQ==" length="1543212" />
+    </item>
   </channel>
 </rss>
