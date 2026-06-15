@@ -17,7 +17,7 @@
 
 ## 下载
 
-见 [Releases](https://github.com/davidfuzju/drawer/releases)。要求 **macOS 26.5+(Apple Silicon)**。
+见 [Releases](https://github.com/davidfuzju/drawer/releases)。要求 **macOS 14.0+**,通用二进制(**Apple Silicon 与 Intel** 均支持)。
 
 > 当前版本未公证,首次打开可能被 Gatekeeper 拦下:右键 App → 打开,或到 系统设置 → 隐私与安全性 放行。
 
