@@ -28,5 +28,14 @@
 
       beta 版只多一行:<sparkle:channel>beta</sparkle:channel>
     -->
+    <item>
+        <title>1.1</title>
+        <pubDate>Mon, 15 Jun 2026 05:57:33 +0000</pubDate>
+        <sparkle:version>2</sparkle:version>
+        <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+        <description><![CDATA[ 测试自动更新:首个 Sparkle 发布 ]]></description>
+        <enclosure url="https://github.com/davidfuzju/drawer/releases/download/v1.1/Drawer-1.1.zip" type="application/octet-stream" sparkle:edSignature="bH3JEeIIG3lOXqlQSwlixNAcuPnb9q6HouXEXSFAgG7h3qkMphDzXuyetGgqwFhP4e56kwQLr/yfZzqQWtMyAw==" length="1278764" />
+    </item>
   </channel>
 </rss>
