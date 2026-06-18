@@ -28,5 +28,15 @@
         <description><![CDATA[ Universal 二进制(Apple Silicon + Intel);部署目标降至 macOS 14;新增 dmg 安装包(拖入 Applications 即装);默认订阅 Beta 频道。 ]]></description>
         <enclosure url="https://github.com/davidfuzju/drawer/releases/download/v1.1.1/Drawer-1.1.1.5.zip" type="application/octet-stream" sparkle:edSignature="+8k9rmUPNhfw63PbBEEciOwuxutIqUz904iasbV4WwEft5ZJImaBLAeujmmceOtVf03F8SKkVDXB+pjA7kaiCQ==" length="1543212" />
     </item>
+    <item>
+        <title>1.1.2-beta</title>
+        <pubDate>Thu, 18 Jun 2026 01:59:01 +0000</pubDate>
+        <sparkle:version>6</sparkle:version>
+        <sparkle:shortVersionString>1.1.2-beta</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <sparkle:channel>beta</sparkle:channel>
+        <description><![CDATA[ 移除顶部边(macOS 限制);新增抽屉横轴尺寸(crossRatio)与位置(offset)调节。 ]]></description>
+        <enclosure url="https://github.com/davidfuzju/drawer/releases/download/v1.1.2-beta/Drawer-1.1.2-beta.6.zip" type="application/octet-stream" sparkle:edSignature="P+Ok6ztc1YY6mkPQTHNAzxHo9C7Yu8W+16+6ioru16EKl4YhtjfyzeZI55TWz99jnqGCEzPtXT7WT7UpIfj5BQ==" length="1549441" />
+    </item>
   </channel>
 </rss>
