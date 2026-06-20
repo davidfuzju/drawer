@@ -78,5 +78,15 @@
         <description><![CDATA[ 修复:在抽屉之间切换(异边)不再误把其它抽屉收起。 ]]></description>
         <enclosure url="https://github.com/davidfuzju/drawer/releases/download/v1.1.6-beta/Drawer-1.1.6-beta.10.zip" type="application/octet-stream" sparkle:edSignature="6N7FvFgYePEu96mM82cYVGu5aYmDlMftxE4/nmj3ZLLDtgGBU5iTtC4ElupWVjagenrrj0/YBOTOttyKtjrEDw==" length="1557861" />
     </item>
+    <item>
+        <title>1.1.7-beta</title>
+        <pubDate>Sat, 20 Jun 2026 16:16:57 +0000</pubDate>
+        <sparkle:version>11</sparkle:version>
+        <sparkle:shortVersionString>1.1.7-beta</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        <sparkle:channel>beta</sparkle:channel>
+        <description><![CDATA[ 架构重构(分层 + 协议 seam + SlotCoordinator 纯决策 + 测试网),行为不变;新增 PRODUCT/ARCHITECTURE 文档。 ]]></description>
+        <enclosure url="https://github.com/davidfuzju/drawer/releases/download/v1.1.7-beta/Drawer-1.1.7-beta.11.zip" type="application/octet-stream" sparkle:edSignature="WMIGzkhrp7ri6WZJA4QAvGz2JKwFyPTXk54IX9P437/7RDLeDt7d7tZ07VMbKBEiLOCLl2bFLo5wZiS+ceAhBA==" length="2238267" />
+    </item>
   </channel>
 </rss>
